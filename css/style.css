@@ -7,7 +7,7 @@
     }
     
     .logo{
-        margin: 3.5rem;
+        margin: 3.4rem;
         font-weight:500;
         font-size:25px;
     
@@ -204,7 +204,6 @@
         margin: 3rem auto;
         border-radius: 2.5rem;
         height: 9rem;
-
     }
 
     .exa{
@@ -219,7 +218,7 @@
 
     .exa i{
         margin-right: .5rem;
-        font-size: 2.4rem;
+        font-size: 2.1rem;
         clip-path: circle();
     }
 
@@ -329,10 +328,39 @@
        
     } 
 
+
+    .fro{
+        width: 40%;
+    }
+
+    .exp{
+        width: 40%;
+    }
+
+
+
     .sec{
         display: flex;
-        gap:3rem;
-        margin: 2rem;
+        gap:0%;
+        margin: auto 7rem;
+    }
+
+    
+        .co{
+            border: 2px solid rgb(185, 179, 179);
+            width:30rem;
+            margin: 3rem auto;
+            border-radius: 2.5rem;
+            height: 5rem;
+        }
+    
+
+    .lc{
+        margin-top: .4rem;
+        display: flex;
+        justify-content: space-around;
+    
+
     }
 
 
