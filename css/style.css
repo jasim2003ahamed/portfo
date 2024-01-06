@@ -62,10 +62,10 @@
     }
     
     
-    button{
+    .con{
         border: 1.5px solid black;
         width: 7.5rem;
-        height: 3.3rem;
+        height: 2.5rem;
         border-radius: 2rem;
         display: flex;
         justify-content: space-around;
@@ -79,8 +79,13 @@
         gap: 1rem;
         
     }
+
+    .dc a{
+        text-decoration: none;
+        color: black;
+    }
     
-    button:hover{
+    .dc a:hover{
         background-color: black;
     }
     
