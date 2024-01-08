@@ -273,23 +273,118 @@
     font-weight: 450;
     
    }
+
+   .lc a:hover{
+    color: grey;
+    text-decoration:underline ;
+    text-underline-offset: 1rem;
+       
+   }
    
 
    .lc a{
     margin-top: 1.2rem;
    }
- 
 
 
+   .one,.two,.three{
+    border: 1px solid black;
+    width: 80%;
+    margin: 3rem auto;
+    border-radius: 2.5rem;
+    height: 30rem;
+    
+   }
+
+
+   .prone,.prtwo,.prthree{
+    border: 1px ;
+    width: 70%;
+    height: 60%;
+    margin: 2rem auto;
+    border-radius: 2rem;
+   
+   }
+
+   .prim1{
+    background-image: url(../media/pr1.jpg);
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+
+   }
+
+   
+   .prim2{
+    background-image: url(../media/pr2.jpg);
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+   }
+
+   
+   .prim3{
+    background-image: url(../media/pr3.jpg);
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+   }
+
+   .title{
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    
+   }
+
+   .up{
+    color: white;
+    border: 1px solid  rgba(252, 208, 150, 0.509);
+    border-radius:20rem 20rem 20rem ;
+    display: flex;
+    justify-content:center;
+    background-color: rgba(220, 186, 142, 0.845);
+   
+
+   }
+   
+   .gl{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    
+   }
+
+   .cont{
+        border: 1px solid black;
+        width: 6.5rem;
+        height: 2rem;
+        border-radius: 2rem;
+   }
+
+   .gl a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: .4rem;
+    color: black;
+    font-weight: 500;
+   }
+
+   .cont:hover{
+    background-color: black;
+   }
+
+   .gl a:hover{
+    color: white;
+   }
 
 
    @media screen and (min-width:701px){
 
     body{
         margin: 0px;
-        padding: 0px;
-        
-    
     }
 
     .na{
@@ -370,15 +465,24 @@
         margin: auto 7rem;
     }
 
+    .pro{
+        display: flex;
+        justify-content: center;
+        gap:2rem;
+        margin: auto 7rem;
+        
+    }
+
+
     
-        .lc {
+    .lc {
             border: 2px solid #222831;
             width:35rem;
             margin: 3rem auto;
             border-radius: 2.5rem;
             height: 4rem;
 
-        }
+    }
 
 
 
@@ -386,12 +490,6 @@
         margin-top: .4rem;
         display: flex;
         justify-content: space-around;
-
-        
-    
-     
-    
-
     }
 
 
@@ -399,10 +497,10 @@
         padding-left: 42%;
     }
 
-
+   }
   
 
-}
+
 
 
 
