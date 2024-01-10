@@ -25,7 +25,7 @@
     
 
     .na{
-        border: 1px solid ;
+       border: 1px solid ;
        background-color:#222831;
        height: 5rem; 
     
@@ -38,6 +38,7 @@
         list-style: none;
         text-align: center;
         display: none;
+        
             
     }
 
@@ -49,17 +50,18 @@
 /* sidebar */
 
 *{
+
     list-style: none;
     text-decoration: none;
 
 }
 
 .sidebar{
-    position: fixed;
+    position: absolute;
     left: -250px;
     margin-top: 5rem;
     width: 200px;
-    height: 650px;
+    height: 350px;
     background :#222831 ;
     z-index: 1;
 
