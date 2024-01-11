@@ -8,7 +8,13 @@
 
 
     .logo{
-        color: #222831;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:white ;
+        margin: 1.5rem 5rem ;
+        font-size: 30px;
+
+
+
     }
     
     .img{
@@ -64,26 +70,29 @@
     height: 350px;
     background :#222831 ;
     z-index: 1;
+    transition: .8s;
 
 }
 
 .sidebar header{
-    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
     color: white;
     text-align: center;
     user-select: none;
     line-height: 50px;
-    background-color: black;
+    letter-spacing: .5rem;
+    background-color: rgb(51, 48, 48);
 }
 
 .sidebar ol a{
     display: block;
-    height: 100%;
-    width: 100%;
     line-height: 55px;
     font-size: 20px;
     color: white;
     border-bottom: 1px solid black;
+    border-top: 1px solid white;
 
 
 }
@@ -133,7 +142,7 @@ label #open{
         justify-content: space-around;
         margin: 0%;
         font-weight: 700;
-        letter-spacing: .4rem;
+        letter-spacing: .3rem;
     }
     
     
@@ -475,10 +484,10 @@ label #open{
     
 
     .logo{
-        font-size: 2rem;
+    
+        font-size: 2.5rem;
         margin: 2rem;
-        color: white;
-        font-style: italic;
+        color: white; 
         letter-spacing: .3rem;
     }
     
