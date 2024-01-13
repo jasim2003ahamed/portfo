@@ -15,55 +15,23 @@
 
     }
 
-    .box{
-        position: relative;
-        width: 210px;
-        height: 210px;
-        display: flex;
-        justify-content: center;
-        margin: 2rem auto;
-       
-        /* border-radius: 50%; */
-    
-    }
-
-    .box::before{
-        content: '';
-        position: absolute;
-        width: 215px;
-        height: 215px;
-        margin: 2rem auto;
-        border-radius: 50%;
-        background: linear-gradient(#00ccff,#d500f9);
-        animation: rotate 4s linear infinite;
-    }
-
-     @keyframes rotate{
-        from{
-            transform: rotate(0deg);
-        }
-
-        to{
-            transform: rotate(360deg);
-        }
-    } 
-    
+     
     .img{
 
-        background-image: url(../media/jas.jpg.jpg);
+        background-image: url(../media/jasim\ \(4\).jpg);
         width:200px;
-        height:200px;
+        height:220px;
+        clip-path: circle();
+        z-index: 2;
         display: flex;
         justify-content: center;
-        clip-path: circle();
-        margin:2.5rem auto; 
-        z-index: 3;
-    
-    }
+        margin: 2.5rem auto;
+        
+           
+    } 
 
-    .pi{
-        margin: 5rem auto;
-    }
+
+
 
     .na{
        border: 1px solid ;
@@ -102,7 +70,7 @@
     width: 200px;
     height: 350px;
     background :#222831 ;
-    z-index: 1;
+    z-index: 3;
     transition: .8s;
 
 }
@@ -513,8 +481,7 @@ label #open{
     .img{
         margin-top: 4rem;
     }
-        
-    
+
 
     .logo{
     
@@ -570,7 +537,7 @@ label #open{
         clip-path:ellipse();
         margin:2.5rem auto;
     
-    }
+    } 
 
 
     .fro{
