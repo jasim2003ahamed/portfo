@@ -19,8 +19,8 @@
     .img{
 
         background-image: url(../media/jasim\ \(4\).jpg);
-        width:200px;
-        height:220px;
+        width:250px;
+        height:280px;
         clip-path: circle();
         z-index: 2;
         display: flex;
